@@ -9,10 +9,8 @@ def  measureTest(messageNumber):
     relHumidity=-99.9
     return(batteryVoltage,kPa1,kPa2,kPa3,soilTempCelsius,temperatureC,pressurehPa,relHumidity)
 
-def foo():
-    print "foo!"
 
-    
+
 def measure(messageNumber):
     from machine import I2C, Pin, SD
     import ads1x15, time, machine, pycom, sys, utime, os

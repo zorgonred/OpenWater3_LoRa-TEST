@@ -22,7 +22,7 @@ import socket
 import binascii
 import ubinascii
 import struct
-import ustruct from lib;
+from lib import ustruct;
 import config
 import utime
 
